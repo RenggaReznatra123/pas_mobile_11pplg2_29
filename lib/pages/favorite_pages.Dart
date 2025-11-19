@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../controller/favorite_controller.dart';
-import '../componets/favorite_item_card.dart';
+import 'package:pas_mobile_11pplg2_29/controller/favorite_controller.Dart';
+import 'package:pas_mobile_11pplg2_29/componets/faforite_item_card.Dart';
 
 class FavoritesPage extends StatelessWidget {
   FavoritesPage({super.key});

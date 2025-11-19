@@ -1,15 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../controllers/.dart';
-import '../model/tvseries_model.dart';
-import 'product_detail_dialog.dart';
+import 'package:pas_mobile_11pplg2_29/models/tvseries_model.Dart';
 
 class FavoriteItemCard extends StatelessWidget {
   final TvSeriesModel product;
 
   FavoriteItemCard({super.key, required this.product});
-
-  final StoreController c = Get.find<StoreController>();
 
   @override
   Widget build(BuildContext context) {

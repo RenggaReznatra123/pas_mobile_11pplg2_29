@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../service/api_service.Dart';
-import '../models/login_model.Dart';
+import 'package:pas_mobile_11pplg2_29/service/api_service.Dart';
+import 'package:pas_mobile_11pplg2_29/models/login_model.Dart';
 
 class LoginApiController extends GetxController {
   var isLoading = false.obs;
